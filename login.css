@@ -1,0 +1,90 @@
+.wrapall{
+background-color: aqua;
+width: 100%;
+}
+
+.wrapbottom{
+    background-color: blue;
+}
+
+.row1{
+    margin: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imghp{
+    float: left;
+    /* background-color: rebeccapurple; */
+}
+
+.wraploginbox{
+    float: left;
+    background-color: antiquewhite;
+    width: 350px;
+    height: 399px;
+    border: 1px solid gray;
+    margin-top: 30px;
+    border-radius: 5px;
+    /* box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    position: relative;
+    vertical-align: baseline; */
+}
+
+
+.loginbox{
+    background-color: rgb(79, 226, 197);
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.signupbox{
+    background-color: palegreen;
+}
+
+.getappbox{
+    background-color: palevioletred;
+}
+
+.footerup{
+    background-color: grey;
+}
+
+.footerdown{
+    background-color: goldenrod;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
